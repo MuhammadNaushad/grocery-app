@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Environment variables (SECRET hai, kabhi push mat karo!)
+.env
+.env.local
+.env.production
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store        # Mac
+Thumbs.db        # Windows
+
+# Build output
+dist/
+build/
+
+# Editor/IDE settings
+.vscode/
+.idea/
+
+# Coverage reports
+coverage/
